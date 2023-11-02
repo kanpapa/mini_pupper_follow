@@ -24,7 +24,7 @@ class OakDetect(Node):
         self.publisher_ = self.create_publisher(Pose, '/body_pose', 10)
         
         self.subscription = self.create_subscription(Detection2DArray, '/color/mobilenet_detections', self.listener_callback, 10)
-        self.subscription  # prevent unused variable warning 未使用変数の警告を防ぐ
+        self.subscription  # prevent unused variable warning
 
         #mobilenet object list
         #0: background
