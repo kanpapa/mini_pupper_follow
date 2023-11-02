@@ -1,8 +1,8 @@
 # mini_pupper_follow
 
-This program is for object tracking by Mini Papper 2 running ROS2 Humble.
-This package is an alpha version. The program still needs to be tweaked.
-OAK-D LITE is required to run this prototype.
+This program is for object tracking by Mini Papper 2 running ROS2 Humble.  
+This package is an alpha version. The program still needs to be tweaked.  
+OAK-D LITE is required to run this prototype.  
 
 ## 1. Setup
 
