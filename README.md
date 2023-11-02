@@ -39,7 +39,7 @@ ros2 launch mini_pupper_bringup bringup.launch.py
 ros2 launch depthai_examples mobile_publisher.launch.py camera_model:=OAK-D-LITE
  
 # Terminal 3
-. ~/colcon_ws/install/setup.bash
+. ~/ros2_ws/install/setup.bash
 ros2 launch mini_pupper_follow follow.launch.py
 ```
 
